@@ -65,7 +65,7 @@ def typewriter(word):
 
 def midpoint(word):
     total = sum([letterval(i) for i in word])
-    midpoint = float(total/2)
+    midpoint = float(total)/2.0
     count = 0
     result = None
     for (idx, letter) in enumerate(word):
@@ -75,7 +75,7 @@ def midpoint(word):
         elif count + letterval(letter) > midpoint:
             target = midpoint - count
             fraction = target / float(letterval(letter))
-            return round(idx + fraction, 3)
+            result = idx + fraction
             break
         else:
             count = count + letterval(letter)
