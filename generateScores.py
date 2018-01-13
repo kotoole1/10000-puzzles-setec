@@ -35,9 +35,62 @@ def elements(word):
             total += allElements[word[i:i+2]]
     return total
 
+def unique_permutations(iterable, r=None):
+    previous = tuple()
+    for p in permutations(sorted(iterable), r):
+        if p > previous:
+            previous = p
+            yield p
 
 def index(word):
-    return "N/A"
+    index = 1
+    remainingLetters = len(word) - 1
+    frequencies = {}
+    splitString = list(word)
+    sortedStringLetters = sorted(splitString)
+
+    for val in sortedStringLetters:
+        if (val not in frequencies):
+            frequencies[val] = 1
+        else:
+            frequencies[val] += 1
+
+    def factorial(coefficient):
+        return math.factorial(coefficient)
+
+    def getSubPermutations(sorted, currentLetter):
+        if currentLetter in sorted:
+            sorted[currentLetter] -= 1
+
+        denominator = 1
+        for key in sorted:
+            subPermutations = factorial(sorted[key])
+            if subPermutations != 0:
+                denominator *= subPermutations
+
+        if currentLetter in sorted:
+            sorted[currentLetter] += 1
+
+        return denominator
+
+    splitStringIndex = 0
+    while len(sortedStringLetters) > 0:
+        for i in range(len(sortedStringLetters)):
+            if (sortedStringLetters[i] != splitString[splitStringIndex]):
+                if (sortedStringLetters[i] != sortedStringLetters[i+1]):
+                    permutations = factorial(remainingLetters)
+                    index += permutations / getSubPermutations(frequencies, sortedStringLetters[i])
+                else:
+                    continue
+            else:
+                splitStringIndex += 1
+                if sortedStringLetters[i] in frequencies:
+                    frequencies[sortedStringLetters[i]] -= 1
+                del sortedStringLetters[i]
+                remainingLetters -= 1
+                break
+
+    return index
 
 def news(word):
     position = [0, 0]
@@ -93,9 +146,12 @@ def generateScores(word):
     return word + " " + elementsScore + " " + indexScore + " " + midpointScore + " " + newsScore + " " + scrabbleScore + " " + typewriterScore + " " + unitsScore + "\n"
 
 def main():
+    count = 0
     with open("puzzle-e5d3f3d5ae/words.txt", "r") as dictionaryFile:
         with open("word-with-scores.txt", "w") as outputFile:
             for line in dictionaryFile:
+                count += 1
+                print(count)
                 outputFile.write(generateScores(line.strip()))
 
 main()
