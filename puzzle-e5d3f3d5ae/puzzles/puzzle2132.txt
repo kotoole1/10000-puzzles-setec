@@ -1,0 +1,4 @@
+news(word) = 2.828
+scrabble(word) = 14
+elements(word) = 302
+special(word) = True

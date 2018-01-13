@@ -1,0 +1,4 @@
+index(word) = 435
+typewriter(word) = 4
+elements(word) = 69
+special(word) = True

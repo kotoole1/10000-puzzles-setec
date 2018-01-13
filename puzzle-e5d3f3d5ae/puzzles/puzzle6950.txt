@@ -1,0 +1,4 @@
+units(word) = 8
+news(word) = 2.828
+elements(word) = 292
+special(word) = True

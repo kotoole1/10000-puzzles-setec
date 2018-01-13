@@ -1,0 +1,4 @@
+index(word) = 672781
+typewriter(word) = 6
+elements(word) = 380
+special(word) = True

@@ -1,0 +1,4 @@
+news(word) = 1.0
+elements(word) = 166
+midpoint(word) = 2.821
+special(word) = True

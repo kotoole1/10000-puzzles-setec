@@ -1,0 +1,4 @@
+units(word) = 11
+news(word) = 3.162
+midpoint(word) = 6.361
+special(word) = True

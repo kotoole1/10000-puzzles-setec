@@ -1,0 +1,4 @@
+news(word) = 2.236
+index(word) = 57673
+scrabble(word) = 15
+special(word) = True

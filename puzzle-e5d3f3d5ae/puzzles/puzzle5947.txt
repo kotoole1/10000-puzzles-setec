@@ -1,0 +1,4 @@
+news(word) = 3.0
+typewriter(word) = 6
+midpoint(word) = 7.125
+special(word) = True

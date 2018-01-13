@@ -1,0 +1,4 @@
+news(word) = 2.0
+index(word) = 4629
+elements(word) = 87
+special(word) = True

@@ -1,0 +1,4 @@
+units(word) = 14
+typewriter(word) = 11
+elements(word) = 303
+special(word) = True

@@ -1,0 +1,5 @@
+units(word) = 10
+scrabble(word) = 11
+typewriter(word) = 6
+elements(word) = 322
+special(word) = True

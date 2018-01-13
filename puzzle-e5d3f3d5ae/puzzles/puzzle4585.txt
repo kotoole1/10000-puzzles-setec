@@ -1,0 +1,4 @@
+units(word) = 10
+news(word) = 2.236
+index(word) = 342307
+special(word) = True

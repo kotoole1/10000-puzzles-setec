@@ -1,0 +1,4 @@
+units(word) = 8
+scrabble(word) = 13
+midpoint(word) = 2.909
+special(word) = True

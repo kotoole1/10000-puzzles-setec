@@ -1,0 +1,5 @@
+units(word) = 6
+scrabble(word) = 12
+elements(word) = 265
+midpoint(word) = 2.667
+special(word) = True

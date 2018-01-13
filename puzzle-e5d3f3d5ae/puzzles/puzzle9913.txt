@@ -1,0 +1,5 @@
+units(word) = 11
+index(word) = 9566413
+typewriter(word) = 6
+elements(word) = 413
+special(word) = True

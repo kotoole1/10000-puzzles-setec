@@ -1,0 +1,5 @@
+units(word) = 9
+news(word) = 0.0
+index(word) = 11592
+midpoint(word) = 5.4
+special(word) = True

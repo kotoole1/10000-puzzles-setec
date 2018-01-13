@@ -1,0 +1,4 @@
+scrabble(word) = 21
+typewriter(word) = 7
+midpoint(word) = 4.75
+special(word) = True

@@ -1,0 +1,4 @@
+index(word) = 206750
+typewriter(word) = 7
+midpoint(word) = 4.444
+special(word) = True

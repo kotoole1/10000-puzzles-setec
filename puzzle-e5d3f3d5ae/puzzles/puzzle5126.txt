@@ -1,0 +1,4 @@
+units(word) = 6
+index(word) = 360
+scrabble(word) = 16
+special(word) = True

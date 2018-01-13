@@ -1,0 +1,5 @@
+index(word) = 100
+scrabble(word) = 10
+typewriter(word) = 2
+elements(word) = 85
+special(word) = True

@@ -1,0 +1,4 @@
+index(word) = 2683
+scrabble(word) = 9
+midpoint(word) = 4.417
+special(word) = True

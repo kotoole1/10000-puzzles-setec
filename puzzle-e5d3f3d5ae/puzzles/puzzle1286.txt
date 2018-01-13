@@ -1,0 +1,4 @@
+units(word) = 9
+scrabble(word) = 11
+elements(word) = 22
+special(word) = True

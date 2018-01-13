@@ -1,0 +1,4 @@
+scrabble(word) = 14
+typewriter(word) = 6
+elements(word) = 98
+special(word) = True

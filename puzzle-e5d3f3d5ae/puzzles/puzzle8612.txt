@@ -1,0 +1,4 @@
+units(word) = 7
+index(word) = 2713
+elements(word) = 310
+special(word) = True

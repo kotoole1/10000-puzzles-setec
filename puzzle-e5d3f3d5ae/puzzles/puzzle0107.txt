@@ -1,0 +1,4 @@
+units(word) = 10
+index(word) = 414420
+typewriter(word) = 7
+special(word) = True

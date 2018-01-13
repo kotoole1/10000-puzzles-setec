@@ -1,0 +1,5 @@
+units(word) = 7
+news(word) = 1.414
+typewriter(word) = 1
+elements(word) = 193
+special(word) = True

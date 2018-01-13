@@ -1,0 +1,4 @@
+news(word) = 3.0
+scrabble(word) = 13
+midpoint(word) = 6.1
+special(word) = True

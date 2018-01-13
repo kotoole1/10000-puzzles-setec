@@ -1,0 +1,4 @@
+news(word) = 2.828
+index(word) = 844
+typewriter(word) = 3
+special(word) = True

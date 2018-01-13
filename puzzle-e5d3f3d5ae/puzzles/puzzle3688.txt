@@ -1,0 +1,5 @@
+units(word) = 9
+news(word) = 1.414
+scrabble(word) = 15
+elements(word) = 205
+special(word) = True

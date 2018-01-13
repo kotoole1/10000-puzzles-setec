@@ -1,0 +1,5 @@
+units(word) = 7
+news(word) = 1.414
+index(word) = 448
+typewriter(word) = 2
+special(word) = True

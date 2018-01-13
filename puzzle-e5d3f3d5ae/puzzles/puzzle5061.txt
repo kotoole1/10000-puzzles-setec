@@ -1,0 +1,4 @@
+scrabble(word) = 10
+elements(word) = 278
+midpoint(word) = 3.475
+special(word) = True

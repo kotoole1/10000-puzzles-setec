@@ -1,0 +1,4 @@
+typewriter(word) = 5
+elements(word) = 287
+midpoint(word) = 4.381
+special(word) = True

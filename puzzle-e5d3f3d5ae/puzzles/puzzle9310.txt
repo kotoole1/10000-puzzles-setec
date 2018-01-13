@@ -1,0 +1,5 @@
+units(word) = 5
+index(word) = 39
+scrabble(word) = 14
+midpoint(word) = 2.556
+special(word) = True

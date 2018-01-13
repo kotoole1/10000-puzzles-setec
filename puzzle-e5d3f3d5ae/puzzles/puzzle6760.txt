@@ -1,0 +1,5 @@
+units(word) = 5
+news(word) = 0.0
+index(word) = 90
+scrabble(word) = 12
+special(word) = True

@@ -1,0 +1,4 @@
+news(word) = 3.0
+index(word) = 861399568
+midpoint(word) = 7.35
+special(word) = True

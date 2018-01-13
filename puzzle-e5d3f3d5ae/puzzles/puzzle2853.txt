@@ -1,0 +1,4 @@
+units(word) = 8
+index(word) = 2098
+midpoint(word) = 4.679
+special(word) = True

@@ -1,0 +1,4 @@
+units(word) = 9
+elements(word) = 289
+midpoint(word) = 6.133
+special(word) = True

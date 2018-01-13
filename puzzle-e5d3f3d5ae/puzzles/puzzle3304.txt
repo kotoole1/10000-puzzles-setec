@@ -1,0 +1,4 @@
+index(word) = 30127
+elements(word) = 277
+midpoint(word) = 3.8
+special(word) = True

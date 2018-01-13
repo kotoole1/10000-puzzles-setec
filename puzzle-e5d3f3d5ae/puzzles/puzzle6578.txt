@@ -1,0 +1,5 @@
+units(word) = 6
+index(word) = 336
+scrabble(word) = 9
+elements(word) = 53
+special(word) = True

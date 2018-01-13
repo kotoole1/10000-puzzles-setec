@@ -1,0 +1,4 @@
+index(word) = 414420
+scrabble(word) = 20
+typewriter(word) = 7
+special(word) = True

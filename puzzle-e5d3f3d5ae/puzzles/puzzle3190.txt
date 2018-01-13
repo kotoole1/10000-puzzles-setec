@@ -1,0 +1,4 @@
+units(word) = 8
+index(word) = 7899
+scrabble(word) = 17
+special(word) = True

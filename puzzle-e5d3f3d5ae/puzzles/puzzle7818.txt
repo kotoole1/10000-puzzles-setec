@@ -1,0 +1,4 @@
+index(word) = 5253
+scrabble(word) = 12
+elements(word) = 401
+special(word) = True
